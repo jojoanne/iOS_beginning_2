@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter temperature" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lqv-ZY-uyg">
-                                <rect key="frame" x="28" y="95" width="239" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter temperature" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lqv-ZY-uyg">
+                                <rect key="frame" x="0.0" y="95" width="138" height="30"/>
                                 <accessibility key="accessibilityConfiguration" hint="Enter temperature"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckd-vq-Yqb">
-                                <rect key="frame" x="278" y="375" width="72" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckd-vq-Yqb">
+                                <rect key="frame" x="116" y="338" width="368" height="30"/>
                                 <state key="normal" title="CONVERT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -32,8 +32,7 @@
                                     <action selector="convertTemp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IA3-yX-D0t"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSj-9V-93V">
-                                <rect key="frame" x="176" y="333" width="276" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSj-9V-93V">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,7 +43,6 @@
                             <constraint firstItem="qSj-9V-93V" firstAttribute="top" secondItem="lqv-ZY-uyg" secondAttribute="bottom" constant="208" id="DKH-bE-06l"/>
                             <constraint firstItem="qSj-9V-93V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="QbT-dU-D2q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qSj-9V-93V" secondAttribute="trailing" constant="100" id="Smg-ql-tUQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ckd-vq-Yqb" secondAttribute="trailing" constant="100" id="Un6-Fa-cCz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ckd-vq-Yqb" secondAttribute="trailing" constant="100" id="a29-vJ-muJ"/>
                             <constraint firstItem="Ckd-vq-Yqb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="aTP-Oz-1TC"/>
                             <constraint firstItem="Ckd-vq-Yqb" firstAttribute="top" secondItem="qSj-9V-93V" secondAttribute="bottom" constant="5" id="dfg-IK-5q6"/>
